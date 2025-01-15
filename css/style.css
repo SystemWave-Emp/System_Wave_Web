@@ -25,6 +25,7 @@ header nav a{
 
 /*Botão para subir*/
 #upbtn{
+    transition: 0.5s;
     position: absolute;
     margin: 41vw 90vw;
     width: 5vw;
@@ -32,6 +33,12 @@ header nav a{
     background-color: var(--cor-padrao);
     border-radius: 0.8vw;
     box-shadow: 0vw 0.7vw 1vw var(--cor-fundo3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#upbtn:hover{
+    transition: 1s;
+    margin:40vw 90vw;
 }
 
 /*Layout*/
