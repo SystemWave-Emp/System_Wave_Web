@@ -22,8 +22,17 @@ body{
     background-color: var(--cor-fundo);
 }
 
-p{
+.title{
+    font: bold 2vw Arial;
+    color: var(--cor-padrao);
+}
+
+.paragraph{
+    font: normal 0.8vw Arial;
     color:var(--cor-texto-padrao);
-    font-family:arial;
-    font-size:0.8vw;
+}
+
+.paragraph_bold{
+    font: bold 0.8vw Arial;
+    color:var(--cor-texto-padrao);
 }
