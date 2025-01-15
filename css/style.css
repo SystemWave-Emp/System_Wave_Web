@@ -94,6 +94,7 @@ header nav a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 0vw 0.8vw 1vw var(--cor-fundo3);
 }
 
 .container_texto{
