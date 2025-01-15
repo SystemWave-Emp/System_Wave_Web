@@ -27,6 +27,11 @@ body{
     color: var(--cor-padrao);
 }
 
+.t2{
+    font: bolder 1.7vw Arial;
+    color: var( --cor-texto);
+}
+
 .paragraph{
     font: normal 0.8vw Arial;
     color:var(--cor-texto);
