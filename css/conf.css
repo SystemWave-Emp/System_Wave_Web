@@ -28,9 +28,11 @@ body{
 }
 
 .paragraph{
-    font: normal 0.8vw Arial var(--cor-texto-padrao);
+    font: normal 0.8vw Arial;
+    color:var(--cor-texto);
 }
 
 .paragraph_bold{
-    font: bold 0.8vw Arial var(--cor-texto-padrao);
+    font: bold 0.8vw Arial;
+    color:var(--cor-texto);
 }
