@@ -1,6 +1,7 @@
 /*Menu*/
 header{
     position:absolute;
+    z-index:2;
     width:100%;
     display:flex;
     align-items:center;
@@ -24,10 +25,47 @@ header nav a{
 }
 
 /*Layout*/
+#layout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .layout_video{
     width:100%;
     object-fit: cover;
     height:30vw;
+}
+.layout_container{
+    width:30vw;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    padding-left:10vw;
+    gap:1vw;
+}
+.layout_container h1{
+    color:#fff;
+    font-family:arial;
+    font-weight: 600;
+    font-size:2vw;
+}
+.layout_container h1 span{
+    color:var(--cor-padrao);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:2.5vw;
+}
+.layout_container p{
+    color:#fff;
+    font-family:arial;
+    font-weight: 500;
+}
+.layout_container button{
+    width:12vw;
+    padding:0.5vw 0vw;
+    border-radius:0.2vw;
+    border:none;
+    background-color: var(--cor-padrao);
 }
 
 /*Serviços*/
