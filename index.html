@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="image/png" href="/img/logo/system_wave1.png">
     <link rel="stylesheet" type="text/css" href="/css/conf.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> <!--Biblioteca de carousel swiper style-->
 </head>
 <body>
     <!--área do menu-->
@@ -35,7 +36,62 @@
 
     <!--área do projetos-->
     <section id="projetos">
+        <div class="projetos_container">
+            <h2 class="title">Projetos que trabalhamos</h2>
 
+            <p class="paragraph">Acesse e conheça mais sobre os projetos que desenvolvemos com o passar dos anos no mercado, o seu pode ser o próximo</p>
+        </div>
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="projetos_card">
+                        <div class="projetos_card_container">
+                            <h3>PrimeCode</h3>
+                            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                    <div class="projetos_card">
+                        <div class="projetos_card_container">
+                            <h3>Red Dead</h3>
+                            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                    <div class="projetos_card">
+                        <div class="projetos_card_container">
+                            <h3>SpiderMan</h3>
+                            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="projetos_card">
+                        <div class="projetos_card_container">
+                            <h3>GUB</h3>
+                            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                    <div class="projetos_card">
+                        <div class="projetos_card_container">
+                            <h3>Innovatec</h3>
+                            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                    <div class="projetos_card">
+                        <div class="projetos_card_container">
+                            <h3>Fluxion</h3>
+                            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     </section>
     
     <!--área do divulgacao-->
@@ -62,6 +118,8 @@
     <section id="footer">
 
     </section>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!--Biblioteca de carousel swiper script-->
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -29,6 +29,70 @@ header nav a{
 
 
 /*Projetos*/
+#projetos{
+    padding-top:5vw;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:1vw;
+}
+.projetos_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5vw;
+    width:30vw;
+    text-align: center;
+}
+
+#projetos .swiper {
+    width: 80vw;
+    height: 20vw;
+}
+#projetos .swiper-slide{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:3vw;
+}
+#projetos .swiper-button-prev, #projetos .swiper-button-next{
+    color:#fff;
+}
+#projetos .swiper-button-prev::after{
+    font-size:2vw;
+    font-weight:900;
+}
+#projetos .swiper-button-next::after{
+    font-size:2vw;
+    font-weight:900;
+}
+
+.projetos_card{
+    width:20vw;
+    height:13vw;
+    background-color:#000;
+    border-radius:1vw;
+    cursor: pointer;
+}
+.projetos_card_container{
+    display:flex;
+    flex-direction: column;
+    gap:0.5vw;
+    background-image:url(../img/efeitos/ondaProjetos.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:80%;
+    height:7vw;
+    margin-top:6vw;
+    padding-left:1.5vw;
+}
+.projetos_card_container h3{
+    font-family:arial;
+    font-weight: 800;
+    color:var(--cor-texto-padrao);
+    font-size:1.5vw;
+    padding-top:0.5vw;
+}
 
 /*Divulgacao*/
 
