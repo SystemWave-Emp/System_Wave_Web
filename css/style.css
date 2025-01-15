@@ -26,7 +26,23 @@ header nav a{
 /*Layout*/
 
 /*Serviços*/
+#servicos{
+    display: flex;
+    height: 30vw;
+    background-color: #cfcaca;
+    text-align: center;
+    justify-content: center;
+}
 
+#textos{
+    position: absolute;
+    margin-top: 6vw;
+    width: 35vw;
+    height: 8vw;
+    background-color: aquamarine;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 /*Projetos*/
 
