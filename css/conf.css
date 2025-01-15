@@ -20,3 +20,16 @@
 body{
     background-color: var(--cor-fundo);
 }
+
+.title{
+    font: bold 2vw Arial;
+    color: #0178FF;
+}
+
+.paragraph{
+    font: normal 0.8vw Arial;
+}
+
+.paragraph_bold{
+    font: bold 0.8vw Arial;
+}
