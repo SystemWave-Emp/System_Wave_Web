@@ -41,3 +41,8 @@ body{
     font: bold 0.8vw Arial;
     color:var(--cor-texto);
 }
+
+.paragraph_italic{
+    font: italic 0.76vw Arial;
+    color:var(--cor-texto);
+}
