@@ -5,7 +5,7 @@ header{
     display:flex;
     align-items:center;
     justify-content: space-between;
-    height:5vw;
+    height:7vw;
 }
 header .logo{
     width:2vw;
@@ -21,6 +21,24 @@ header nav a{
     color:#fff;
     font-family:arial;
     font-size:1vw;
+}
+
+/*Botão para subir*/
+#upbtn{
+    transition: 0.5s;
+    position: fixed;
+    margin: 41vw 90vw;
+    width: 5vw;
+    height: 3.8vw;
+    background-color: var(--cor-padrao);
+    border-radius: 0.8vw;
+    box-shadow: 0vw 0.7vw 1vw var(--cor-fundo3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#upbtn:hover{
+    transition: 1s;
+    margin:40vw 90vw;
 }
 
 /*Layout*/
