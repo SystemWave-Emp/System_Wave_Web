@@ -54,7 +54,6 @@ header nav a{
 
 #container_funcionalidades{
     width: 100%;
-    height: 20vw;
     display: flex;
 }
 
@@ -89,6 +88,22 @@ header nav a{
 ul{
     margin-left: 1vw;
     height: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ranking{
+    width: 100%;
+    height: 15vw;
+    background-color: #575757;
+    
+}
+
+.dados2{
+    width: 13vw;
+    text-align: center;
+    height: 9vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
