@@ -56,7 +56,7 @@ header nav a{
     gap:3vw;
 }
 #projetos .swiper-button-prev, #projetos .swiper-button-next{
-    color:#fff;
+    color:var(--cor-texto);
 }
 #projetos .swiper-button-prev::after{
     font-size:2vw;
