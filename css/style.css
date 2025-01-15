@@ -85,11 +85,11 @@ header nav a{
 .container_card{
     position: absolute;
     margin: 2vw 0 0 1vw;
-    width: 19vw;
-    height: 7.5vw;
+    width: 18vw;
+    height: 6.5vw;
     border-radius: 0.9vw;
     background-color: var(--cor-fundo2);
-    padding: 1.5vw 2vw 2vw 2vw;
+    padding: 1.5vw 2vw 2.5vw 2vw;
     text-align: right;
     display: flex;
     flex-direction: column;
