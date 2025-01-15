@@ -19,7 +19,7 @@ header nav{
 }
 header nav a{
     text-decoration: none;
-    color:#fff;
+    color:var(--cor-texto-padrao);
     font-family:arial;
     font-size:1vw;
 }
@@ -30,10 +30,18 @@ header nav a{
     flex-direction: column;
     justify-content: center;
 }
+#layout hr{
+    width:35vw;
+    height: 0.6vw;
+    margin-left:auto;
+    border:none;
+    background-image: linear-gradient(-90deg, var(--cor-degrade1), var(--cor-degrade2));
+    margin-top:-0.3vw;
+}
 .layout_video{
     width:100%;
     object-fit: cover;
-    height:30vw;
+    height:32vw;
 }
 .layout_container{
     width:30vw;
@@ -41,31 +49,32 @@ header nav a{
     display:flex;
     flex-direction: column;
     padding-left:10vw;
-    gap:1vw;
+    gap:1.5vw;
 }
 .layout_container h1{
-    color:#fff;
+    color:var(--cor-texto-padrao);
     font-family:arial;
     font-weight: 600;
     font-size:2vw;
 }
 .layout_container h1 span{
-    color:var(--cor-padrao);
+    background-image: linear-gradient(-90deg, var(--cor-padrao) 40%, var(--cor-degrade2));
+    background-clip: text; /* clipar a cor de fundo no texto */
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-weight: 900;
-    font-size:2.5vw;
-}
-.layout_container p{
-    color:#fff;
-    font-family:arial;
-    font-weight: 500;
+    font-size:3vw;
 }
 .layout_container button{
-    width:12vw;
-    padding:0.5vw 0vw;
-    border-radius:0.2vw;
+    width:14vw;
+    padding:0.6vw 0vw;
+    border-radius:0.3vw;
     border:none;
     background-color: var(--cor-padrao);
+    color:var(--cor-texto-padrao);
+    font-family:arial;
+    font-weight: 600;
+    font-size:0.8vw;
 }
 
 /*Serviços*/

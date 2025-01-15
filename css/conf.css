@@ -21,3 +21,9 @@
 body{
     background-color: var(--cor-fundo);
 }
+
+p{
+    color:var(--cor-texto-padrao);
+    font-family:arial;
+    font-size:0.8vw;
+}
