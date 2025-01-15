@@ -24,14 +24,26 @@ header nav a{
 }
 
 /*Layout*/
-.layout_video{
-    width:100%;
-    object-fit: cover;
-    height:30vw;
-}
 
 /*Serviços*/
+#servicos{
+    display: flex;
+    height: 30vw;
+    background-color: #9c9c9c;
+    text-align: center;
+    justify-content: center;
+}
 
+#textos{
+    position: absolute;
+    margin-top: 6vw;
+    width: 35vw;
+    height: 8vw;
+    background-color: aquamarine;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
 
 /*Projetos*/
 
