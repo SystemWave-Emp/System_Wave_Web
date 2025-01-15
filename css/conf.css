@@ -1,6 +1,19 @@
+:root, :root[data-theme='dark']{
+    --cor-fundo:#1C1C1C;
+    --cor-fundo2:#242424;
+    --cor-fundo3:#151515;
+
+    --cor-degrade1:#0026FF;
+    --cor-degrade2:#00C8FF;
+
+    --cor-padrao:#0178FF;
+    
+    --cor-texto:#fff;
+}
+
 *{
     margin: 0;
     padding: 0;
     user-select: none;
-    background-color: #1E1E1E;
+    background-color: var(--cor-fundo);
 }
