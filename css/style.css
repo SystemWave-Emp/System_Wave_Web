@@ -145,8 +145,77 @@ header nav a{
     position: absolute;
     background-color: black;
     height: 30vw;
-    width: 100%;
+    width: 85vw;
+    justify-content: space-between;
+    display: flex;
   }
+
+  .config_planos{
+    overflow: hidden;
+    border-radius: 1vw;
+    background-color: var(--cor-fundo2);
+    width: 18vw;
+    height: 29vw;
+}
+
+.efeito_escurecer{
+    position: absolute;
+    width: 100%;
+    height: 10vw;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.nome_plano{
+    position: absolute;
+    margin: 6.5vw 0 0 2vw;
+    font: bold 1.3vw Arial;
+    color: #fff;
+}
+
+
+.img_plano_config{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 10vw;
+}
+.img_plano{
+    width: 100%;
+}
+
+.efeito_degrade_img{
+    position: absolute;
+    margin: 9.9vw 0 0 8vw;
+    width: 10vw;
+    height: 0.3vw;
+    background-image: linear-gradient(to right, var(--cor-degrade2), var(--cor-degrade1));
+}
+
+.textos_planos{
+    width: 14vw;
+    height: 10.5vw;
+    margin: 1.5vw auto;
+    text-align: left;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.btns_planos{
+    position: absolute;
+    margin: 3vw 0 0 4.8vw;
+    background: none;
+    border: none;
+    font: bold 1.6vw Arial;
+    color: #fff;
+}
+
+.img_btn_planos{
+    width: 15.3vw;
+    margin-left: 2.7vw;
+}
+
+
   
 
 /*Perguntas*/
