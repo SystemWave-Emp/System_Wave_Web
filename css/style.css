@@ -49,6 +49,78 @@ header nav a{
 /*Projetos*/
 
 /*Divulgacao*/
+#divulgacao{
+    padding-top:5vw;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.divulgacao_container{
+    width:50vw;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:2vw;
+    text-align:center;
+    box-shadow:0.1vw 0.1vw 1.3vw 0.2vw #000;
+    border-radius:1vw;
+    padding:3.5vw 0vw;
+}
+.divulgacao_conteudo{
+    position: relative;
+    z-index:1;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:2vw;
+}
+.divulgacao_container .divulgacao_conteudo p{
+    width:20vw;
+}
+.divulgacao_container .divulgacao_conteudo button{
+    width:15vw;
+    padding:0.8vw 0vw;
+    border-radius:0.3vw;
+    border:none;
+    background-color: var(--cor-padrao);
+    color:var(--cor-texto-padrao);
+    font-family:arial;
+    font-weight: bold;
+    font-size:0.8vw;
+    cursor:pointer;
+}
+
+.divulgacao_container .elemento_Fundo1{
+    overflow: hidden;
+    position: absolute;
+    margin-top:-3.5vw;
+    margin-right:40vw;
+    width:10vw;
+    height:17.7vw;
+    border-radius:1vw;
+}
+.divulgacao_container .elemento_Fundo1 img{
+    position: relative;
+    right:8vw;
+    bottom:2vw;
+    width:18vw;
+}
+
+.divulgacao_container .elemento_Fundo2{
+    overflow: hidden;
+    position: absolute;
+    width:25vw;
+    height:14.2vw;
+    margin-left:25vw;
+    border-radius:1vw;
+}
+.divulgacao_container .elemento_Fundo2 img{
+    position: relative;
+    left:1vw;
+    bottom:2vw;
+    width:35vw;
+}
 
 /*Funcionalidade*/
 
