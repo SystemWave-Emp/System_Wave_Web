@@ -143,9 +143,8 @@ header nav a{
   #sep_planos{
     margin-top: 12.6vw;
     position: absolute;
-    background-color: black;
     height: 30vw;
-    width: 85vw;
+    width: 80vw;
     justify-content: space-between;
     display: flex;
   }
@@ -155,12 +154,36 @@ header nav a{
     border-radius: 1vw;
     background-color: var(--cor-fundo2);
     width: 18vw;
-    height: 29vw;
+}
+
+#configp1{
+    height: 29VW;
+}
+
+#configp2{
+    height: 31.5VW;
+}
+
+#configp3{
+    height: 31.5vw;
+}
+
+#configp4{
+    height: 29VW;
+}
+
+
+#tp2{
+    height: 13vw;
+}
+#tp3{
+    height: 13vw;
 }
 
 .efeito_escurecer{
     position: absolute;
-    width: 100%;
+    width: 18vw;
+    border-radius: 1vw 1vw 0 0;
     height: 10vw;
     background-color: rgba(0, 0, 0, 0.541);
 }
@@ -194,12 +217,28 @@ header nav a{
 .textos_planos{
     width: 14vw;
     height: 10.5vw;
-    margin: 1.5vw auto;
+    margin: 1.5vw auto 0 1.5vw;
     text-align: left;
     justify-content: space-between;
     flex-direction: column;
     display: flex;
 }
+
+.list_descri_planos{
+    margin: 0.5vw 0 0 1vw;
+    height: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#listp2{
+    height: 5vw;
+}
+#listp3{
+    height: 4vw;
+}
+
 
 .btns_planos{
     position: absolute;
@@ -215,6 +254,9 @@ header nav a{
     margin-left: 2.7vw;
 }
 
+.sep_btn_comecar{
+
+}
 
   
 
