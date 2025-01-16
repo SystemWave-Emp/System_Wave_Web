@@ -138,6 +138,14 @@ header nav a{
     background-color: var(--cor-padrao);
     transition-duration: .2s;
   }
+
+  #sep_planos{
+    margin-top: 12.6vw;
+    position: absolute;
+    background-color: black;
+    height: 30vw;
+    width: 100%;
+  }
   
 
 /*Perguntas*/
