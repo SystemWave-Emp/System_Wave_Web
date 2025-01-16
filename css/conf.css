@@ -52,3 +52,13 @@ body{
     font: italic 0.76vw Arial;
     color:var(--cor-texto);
 }
+
+.paragraph_boldx2{
+    font: bold 1vw Arial;
+    color:var(--cor-texto);
+}
+
+.title_x1{
+    font: bold 1.5vw Arial;
+    color: var(--cor-padrao);
+}
