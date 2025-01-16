@@ -52,6 +52,11 @@ header nav a{
 
 /*Funcionalidade*/
 
+#funcionalidade{
+    width: 100%;
+    height: 51vw;
+}
+
 #container_funcionalidades{
     width: 100%;
     display: flex;
@@ -59,7 +64,7 @@ header nav a{
 
 #container_img{
     width: 100%;
-    height: 26vw;
+    height: 25vw;
     overflow: hidden;
 }
 
@@ -70,7 +75,7 @@ header nav a{
 #degrade{
     position: absolute;
     width: 100%;
-    height: 26vw;
+    height: 25vw;
     background-image: linear-gradient(to right, var(--cor-fundo), #1e1e1ef5, #1e1e1e00);
 }
 
@@ -94,21 +99,52 @@ ul{
 }
 
 #ranking{
-    width: 100%;
-    height: 15vw;
-    background-color: #575757;
-    
+    padding-top: 3vw;
+    margin: 0 auto;
+    width: 65vw;
+    height: 20vw;
+    background-color: #57575700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.dados2{
-    width: 13vw;
+.dados{
+    width: 20vw;
     text-align: center;
-    height: 9vw;
+    height: 18vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.title_dados2{
+    margin-top: 5vw;
+    font: bold 4vw Arial;
+    color: var(--cor-padrao);
+}
+
+.title_dados1{
+    font: bold 8vw Arial;
+    color: var(--cor-padrao);
+}
+
+.sub_title{
+    font: bold 1.7vw Arial;
+    color: var(--cor-texto);
+}
+
+.paragraph_dado1{
+    font: normal 1.1vw Arial;
+    color:var(--cor-texto);
+}
+
+.paragraph_dado2{
+    margin-left: 2.5vw;
+    width: 15vw;
+    font: normal 0.9vw Arial;
+    color:var(--cor-texto);
+}
 
 
 
