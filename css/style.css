@@ -55,5 +55,77 @@ header nav a{
 /*Planos*/
 
 /*Perguntas*/
+#perguntas{
+    padding:5vw 20vw 0vw 20vw;
+    display:flex;
+    flex-direction: column;
+    gap:1.2vw;
+}
 
+#perguntas .title{
+    padding-bottom:1vw;
+}
+
+.perguntas_card{
+    display:flex;
+    flex-direction: column;
+    border-radius:2vw;
+    width:100%;
+}
+
+.perguntas_card .card_fechado{
+    background-color: var(--cor-fundo2);
+    height:3vw;
+    border-radius:0.5vw 0.5vw 0vw 0vw;
+    display:flex;
+    align-items:center;
+}
+.perguntas_card .card_fechado::before{
+    content:"";
+    width:0.5vw;
+    height:100%;
+    background-color:var(--cor-padrao);
+    border-radius:1vw 0vw 0vw 0vw;
+}
+.perguntas_card .card_fechado span{
+    font-size:1vw;
+    color:var(--cor-texto);
+    font-family: arial;
+    font-weight:700;
+    padding-left:2vw;
+    width:85%;
+}
+
+.perguntas_card .card_aberto{
+    background-color: var(--cor-fundo3);
+    height:8vw;
+    align-items:center;
+    border-radius:0vw 0vw 0.5vw 0.5vw;
+}
+.perguntas_card .card_aberto::before{
+    content:"";
+    width:0.5vw;
+    height:100%;
+    background-color:var(--cor-padrao);
+    border-radius:0vw 0vw 0vw 1vw;
+}
+.perguntas_card .card_aberto p{
+    padding-left:2vw;
+    width:85%;
+}
+
+.perguntas_card .card_seta{
+    color:var(--cor-padrao);
+    font-size:1.2vw;
+    padding-left:3vw;
+    cursor:pointer;
+}
+
+.aberto{
+    display:flex;
+}
+
+.fechado{
+    display:none;
+}
 /*Footer*/
