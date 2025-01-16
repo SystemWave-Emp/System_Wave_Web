@@ -5,6 +5,7 @@
 
     --cor-degrade1:#0026FF;
     --cor-degrade2:#00C8FF;
+    --cor-degrade3:#171F39;
 
     --cor-padrao:#0178FF;
     --cor-texto-padrao:#fff;
@@ -29,6 +30,11 @@ body{
 
 .t2{
     font: bolder 1.7vw Arial;
+    color: var( --cor-texto);
+}
+
+.t3{
+    font: bold 1.3vw Arial;
     color: var( --cor-texto);
 }
 
