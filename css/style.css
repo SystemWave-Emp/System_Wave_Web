@@ -71,7 +71,7 @@ header nav a{
 
 #intro_planos{
     position: absolute;
-    height: 6vw;
+    height: 7.5vw; 
     margin: 3vw auto;
     display: flex;
     flex-direction: column;
@@ -82,16 +82,63 @@ header nav a{
     width: 100%;
 }
 
-/* Colocar no main a partir daqui */
-.paragraph_boldx2{
-    font: bold 1vw Arial;
-    color:var(--cor-texto);
+.on{
+    font: bold 1.2vw Arial;
+    color: var(--cor-texto);
 }
 
-span{
-    font: bold 1.5vw Arial;
-    color: var(--cor-padrao)
+.off{
+    font: normal 1.2vw Arial;
+    color: #5e5e5e;
 }
+
+
+
+/* Botão toggle */
+
+#checkboxInput {
+    display: none;
+  }
+  
+  .toggleSwitch {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 2.3vw;
+    height: 1.2vw;
+    background-color: rgb(82, 82, 82);
+    border-radius: 1vw;
+    cursor: pointer;
+    transition-duration: .2s;
+  }
+  
+  .toggleSwitch::after {
+    content: "";
+    margin-right: 0.8vw;
+    position: absolute;
+    height: 0.47vw;
+    width: 0.50vw;
+
+    background-color: transparent;
+    border-radius: 2vw;
+    transition-duration: .2s;
+    box-shadow: 5px 2px 7px rgba(8, 8, 8, 0.26);
+    border: 0.2vw solid white;
+  }
+  
+  #checkboxInput:checked+.toggleSwitch::after {
+    transform: translateX(100%);
+    transition-duration: .2s;
+    background-color: white;
+  }
+  /* Switch background change */
+  #checkboxInput:checked+.toggleSwitch {
+    background-color: var(--cor-padrao);
+    transition-duration: .2s;
+  }
+  
 
 /*Perguntas*/
 

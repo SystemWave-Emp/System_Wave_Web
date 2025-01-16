@@ -61,12 +61,14 @@
         <div id="intro_planos">
             <h2 class="title">Nossos Planos</h2>
             <p class="paragraph">Conheça um pouco mais sobre nossos planos</p>
-            <h3 class="paragraph_boldx2">Mensal<span> / </span>Anual</h3>
+
+            <div>
+                <span id="mensal" class="on">Mensal</span> <span class="title_x1"> / </span> <span id="anual" class="off">Anual</span>
+            </div>
+
             
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider"></span>
-              </label>
+            <input type="checkbox" id="checkboxInput" onclick="btnplanos()">
+            <label for="checkboxInput" class="toggleSwitch"></label>
         </div>
 
     </section>
