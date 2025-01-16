@@ -25,6 +25,7 @@ header nav a{
 
 /*Botão para subir*/
 #upbtn{
+    z-index: 1;
     transition: 0.5s;
     position: fixed;
     margin: 41vw 90vw;
