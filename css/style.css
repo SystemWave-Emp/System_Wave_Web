@@ -43,6 +43,63 @@ header nav a{
 }
 
 /*Layout*/
+#layout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#layout hr{
+    width:35vw;
+    height: 0.6vw;
+    margin-left:auto;
+    border:none;
+    background-image: linear-gradient(-90deg, var(--cor-degrade1), var(--cor-degrade2));
+    margin-top:-0.3vw;
+}
+.layout_video{
+    width:100%;
+    object-fit: cover;
+    height:35vw;
+}
+.layout_container{
+    width:30vw;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    padding-left:10vw;
+    padding-top:2vw;
+    gap:1.5vw;
+}
+.layout_container h1{
+    color:var(--cor-texto-padrao);
+    font-family:arial;
+    font-weight: 600;
+    font-size:2.2vw;
+    line-height: 2.8vw;
+}
+.layout_container p{
+    width:85%;
+}
+.layout_container h1 span{
+    background-image: linear-gradient(-90deg, var(--cor-padrao) 40%, var(--cor-degrade2));
+    background-clip: text; /* clipar a cor de fundo no texto */
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:3.2vw;
+}
+.layout_container button{
+    width:42%;
+    padding:0.6vw 0vw;
+    border-radius:0.3vw;
+    border:none;
+    background-color: var(--cor-padrao);
+    color:var(--cor-texto-padrao);
+    font-family:arial;
+    font-weight: bold;
+    font-size:0.8vw;
+}
+
 
 /*Serviços*/
 
