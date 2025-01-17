@@ -102,7 +102,76 @@ header nav a{
 
 
 /*Serviços*/
+#servicos{
+    display: flex;
+    height: 45vw;
+    text-align: center;
+    justify-content: center;
+}
 
+.container_servicos_cards{
+    width: 90vw;
+    height: 30vw;
+    margin-top: 13vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4.5vw;
+}
+
+.card{
+    padding: 0 2vw 0 2vw;
+    display: flex;
+    height: 13vw;
+    width: 24vw;
+}
+
+#textos{
+    position: absolute;
+    margin-top: 4vw;
+    width: 35vw;
+    height: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container_icons{
+    position: absolute;
+    width: 4vw;
+    height: 3vw;
+    display: flex;
+}
+
+.icones_descr{
+    z-index: 2;
+    margin-left: 0.9vw;
+    display: flex;
+    position: absolute;
+    width: 2.65vw;
+}
+
+.ondas{
+    margin-top: 1vw;
+    display: flex;
+    position: absolute;
+    width: 4.5vw;
+    z-index: 1;
+}
+
+.container_card{
+    position: absolute;
+    margin: 2vw 0 0 1vw;
+    width: 18vw;
+    height: 6.5vw;
+    border-radius: 0.9vw;
+    background-color: var(--cor-fundo2);
+    padding: 1.5vw 2vw 2.5vw 2vw;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0vw 0.8vw 1vw var(--cor-fundo3);
+}
 
 /*Projetos*/
 
