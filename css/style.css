@@ -184,7 +184,7 @@ header nav a{
     flex-direction: column;
     align-items:center;
     gap:1vw;
-    height:40vw;
+    height:55vw;
 }
 .projetos_container{
     display:flex;
@@ -322,6 +322,100 @@ header nav a{
 
 
 /*Funcionalidade*/
+#funcionalidade{
+    width: 100%;
+    height: 51vw;
+}
+
+#container_funcionalidades{
+    width: 100%;
+    display: flex;
+}
+
+#container_img{
+    width: 100%;
+    height: 25vw;
+    overflow: hidden;
+}
+
+#img_corp{
+    width: 100%;
+}
+
+#degrade{
+    position: absolute;
+    width: 100%;
+    height: 25vw;
+    background-image: linear-gradient(to right, var(--cor-fundo), #1e1e1ef5, #1e1e1e00);
+}
+
+#text_funcionalidade{
+    z-index: 12;
+    position: absolute;
+    width: 25vw;
+    height: 12.5vw;
+    margin: 6.5vw 0 0 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#list_funcionalidades{
+    margin-left: 1vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ranking{
+    padding-top: 3vw;
+    margin: 0 auto;
+    width: 65vw;
+    height: 20vw;
+    background-color: #57575700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dados{
+    width: 20vw;
+    text-align: center;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title_dados2{
+    margin-top: 5vw;
+    font: bold 4vw Arial;
+    color: var(--cor-padrao);
+}
+
+.title_dados1{
+    font: bold 8vw Arial;
+    color: var(--cor-padrao);
+}
+
+.sub_title{
+    font: bold 1.7vw Arial;
+    color: var(--cor-texto);
+}
+
+.paragraph_dado1{
+    font: normal 1.1vw Arial;
+    color:var(--cor-texto);
+}
+
+.paragraph_dado2{
+    margin-left: 2.5vw;
+    width: 15vw;
+    font: normal 0.9vw Arial;
+    color:var(--cor-texto);
+}
+
 
 /*Planos*/
 
