@@ -33,7 +33,9 @@ header nav a:hover{
     z-index: 2;
     transition: 0.5s;
     position: fixed;
-    margin: 44vw 92vw;
+    bottom:0;
+    right:0;
+    margin:3vw;
     width: 3vw;
     height: 3vw;
     background-color: var(--cor-padrao);
