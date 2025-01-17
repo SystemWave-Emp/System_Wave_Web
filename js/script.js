@@ -1,3 +1,6 @@
+let varmensal = document.getElementById('mensal');
+let varanual = document.getElementById('anual');
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -38,3 +41,12 @@ const swiper = new Swiper('.swiper', {
   }
   
   ControleCard();
+
+  // BTN toglle
+function btnplanos(){
+  varmensal.classList.toggle("off");
+  varmensal.classList.toggle("on");
+  
+  varanual.classList.toggle("on");
+  varanual.classList.toggle("off");
+}
