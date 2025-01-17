@@ -24,6 +24,9 @@
     background-color: var(--cor-padrao);
     border-radius:2em;
 }
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--cor-padrao-escura);
+}
 
 *{
     margin: 0;
