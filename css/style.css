@@ -420,7 +420,7 @@ header nav a{
 /*Planos*/
 #planos{
     width: 100%;
-    height: 50vw;
+    height: 48vw;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -619,5 +619,85 @@ header nav a{
 
 
 /*Perguntas*/
+#perguntas{
+    padding:5vw 20vw 0vw 20vw;
+    display:flex;
+    flex-direction: column;
+    gap:1.2vw;
+}
+
+#perguntas .title{
+    padding-bottom:1vw;
+}
+
+.perguntas_card{
+    display:flex;
+    flex-direction: column;
+    border-radius:0.5vw;
+    width:100%;
+    overflow: hidden;
+}
+
+.perguntas_card .card_fechado{
+    position: relative;
+    z-index:1;
+    background-color: var(--cor-fundo2);
+    height:3vw;
+    
+    display:flex;
+    align-items:center;
+}
+.perguntas_card .card_fechado::before{
+    content:"";
+    width:0.5vw;
+    height:100%;
+    background-color:var(--cor-padrao);
+    
+}
+.perguntas_card .card_fechado span{
+    font-size:1vw;
+    color:var(--cor-texto);
+    font-family: arial;
+    font-weight:700;
+    padding-left:2vw;
+    width:85%;
+}
+
+.perguntas_card .card_aberto{
+    position: relative;
+    z-index:0;
+    display:flex;
+    background-color: var(--cor-fundo3);
+    height:8vw;
+    align-items:center;
+    transition: 0.5s;
+}
+.perguntas_card .card_aberto::before{
+    content:"";
+    width:0.5vw;
+    height:100%;
+    background-color:var(--cor-padrao);
+    
+}
+.perguntas_card .card_aberto p{
+    padding-left:2vw;
+    width:85%;
+}
+
+.perguntas_card .card_seta{
+    color:var(--cor-padrao);
+    font-size:1.2vw;
+    padding-left:3vw;
+    cursor:pointer;
+}
+
+.aberto{
+    margin-top:0vw;
+}
+
+.fechado{
+    margin-top:-8vw;
+}
+
 
 /*Footer*/
