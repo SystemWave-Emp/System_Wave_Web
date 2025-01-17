@@ -8,9 +8,21 @@
     --cor-degrade3:#171F39;
 
     --cor-padrao:#0178FF;
+    --cor-padrao-escura:#0051ad;
     --cor-texto-padrao:#fff;
     
     --cor-texto:#fff;
+
+    --cor-scroll:#000;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--cor-scroll);
+    width:8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor-padrao);
+    border-radius:2em;
 }
 
 *{
