@@ -1,6 +1,28 @@
 let varmensal = document.getElementById('mensal');
 let varanual = document.getElementById('anual');
 
+function NavigationMobile(){
+  let navMobile = document.getElementById('navMobile');
+  let btnNavMobile = document.getElementById('btn_navMobile');
+
+  btnNavMobile.addEventListener('click',function(){
+    if(btnNavMobile.classList.contains('bi-list')){
+      navMobile.style.left = '0';
+      btnNavMobile.classList.add('bi-x-lg');
+      btnNavMobile.classList.remove('bi-list');
+      btnNavMobile.style.position = 'fixed';
+    }
+    else{
+      navMobile.style.left = '-60vw';
+      btnNavMobile.classList.remove('bi-x-lg');
+      btnNavMobile.classList.add('bi-list');
+      btnNavMobile.style.position = 'absolute';
+    }
+  });
+}
+
+NavigationMobile();
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',

@@ -28,6 +28,14 @@ header nav a:hover{
     scale:1.1;
 }
 
+#navMobile{
+    display:none;
+}
+
+#btn_navMobile{
+    display:none;
+}
+
 /*Botão para subir*/
 #upbtn{
     z-index: 2;
@@ -76,6 +84,9 @@ header nav a:hover{
     width:100%;
     object-fit: cover;
     height:35vw;
+}
+.layout_mobile{
+    display:none;
 }
 .layout_container{
     width:30vw;
@@ -162,7 +173,6 @@ header nav a:hover{
 .container_icons{
     position: absolute;
     width: 4vw;
-    height: 3vw;
     display: flex;
 }
 
@@ -208,7 +218,7 @@ header nav a:hover{
     flex-direction: column;
     align-items:center;
     gap:1vw;
-    height:55vw;
+    padding-bottom:8vw;
 }
 .projetos_container{
     display:flex;
@@ -232,11 +242,7 @@ header nav a:hover{
 #projetos .swiper-button-prev, #projetos .swiper-button-next{
     color:var(--cor-texto);
 }
-#projetos .swiper-button-prev::after{
-    font-size:2vw;
-    font-weight:900;
-}
-#projetos .swiper-button-next::after{
+#projetos .swiper-button-prev::after, #projetos .swiper-button-next::after{
     font-size:2vw;
     font-weight:900;
 }
@@ -247,6 +253,7 @@ header nav a:hover{
     background-color:#000;
     border-radius:1vw;
     cursor: pointer;
+    overflow: hidden;
 }
 .projetos_card_container{
     display:flex;
@@ -269,16 +276,8 @@ header nav a:hover{
 }
 
 /*Divulgacao*/
-#divulgacao{
-    padding-top:5vw;
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-}
-
 .divulgacao_container{
-    margin-top: 30vw;
-    position: absolute;
+    margin-top:3vw;
     width:50vw;
     display:flex;
     flex-direction: column;

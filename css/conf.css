@@ -9,8 +9,8 @@
 
     --cor-padrao:#0178FF;
     --cor-padrao-escura:#0051ad;
-    --cor-texto-padrao:#fff;
     
+    --cor-texto-padrao:#fff;
     --cor-texto:#fff;
 
     --cor-scroll:#000;
@@ -76,4 +76,38 @@ body{
 .title_x1{
     font: bold 1.5vw Arial;
     color: var(--cor-padrao);
+}
+
+@media(max-width:900px){
+    .title{
+        font: bold 6.5vw Arial;
+    }
+    
+    .t2{
+        font: bolder 4.5vw Arial;
+    }
+    
+    .t3{
+        font: bold 4.5vw Arial;
+    }
+    
+    .paragraph{
+        font: normal 4vw Arial;
+    }
+    
+    .paragraph_bold{
+        font: bold 4vw Arial;
+    }
+    
+    .paragraph_italic{
+        font: italic 3.3vw Arial;
+    }
+    
+    .paragraph_boldx2{
+        font: bold 3.8vw Arial;
+    }
+    
+    .title_x1{
+        font: bold 5vw Arial;
+    }
 }
