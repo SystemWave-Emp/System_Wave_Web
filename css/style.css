@@ -390,9 +390,24 @@ header nav a:hover{
     flex-direction: column;
     justify-content: space-between;
 }
+#text_funcionalidade ul li{
+    list-style: none;
+}
+#text_funcionalidade li:before {
+    content: '';
+    width:0.5vw;
+    height:0.5vw;
+    border-radius:2vw;
+    background-color: var(--cor-padrao);
+    display: block;
+    position: absolute;
+    color:var(--cor-padrao);
+    left:0;
+    margin-top:0.1vw;
+  }
 
 #list_funcionalidades{
-    margin-left: 1vw;
+    margin-left: 1.5vw;
     height: 5vw;
     display: flex;
     flex-direction: column;
@@ -487,8 +502,6 @@ header nav a:hover{
     color: #5e5e5e;
 }
 
-
-
 /* Botão toggle */
 
 #checkboxInput {
@@ -567,10 +580,10 @@ header nav a:hover{
 }
 
 
-#tp2{
+#configp2 .textos_planos{
     height: 13vw;
 }
-#tp3{
+#configp3 .textos_planos{
     height: 13vw;
 }
 
@@ -626,10 +639,10 @@ header nav a:hover{
     justify-content: space-between;
 }
 
-#listp2{
+#configp2 .list_descri_planos{
     height: 5vw;
 }
-#listp3{
+#configp3 .list_descri_planos{
     height: 4vw;
 }
 
@@ -674,7 +687,6 @@ header nav a:hover{
     z-index:1;
     background-color: var(--cor-fundo2);
     height:3vw;
-    
     display:flex;
     align-items:center;
 }
