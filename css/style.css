@@ -573,45 +573,26 @@ header nav a:hover{
 
 #configp1{
     height: 29VW;
-    cursor: pointer;
 }
 
 #configp2{
     height: 31.5VW;
-    cursor: pointer;
 }
 
 #configp3{
     height: 31.5vw;
-    cursor: pointer;
 }
 
 #configp4{
     height: 29VW;
-    cursor: pointer;
 }
 
-
 #configp2 .textos_planos{
-    height: 15vw;
+    height: 13vw;
 }
 #configp3 .textos_planos{
     height: 13vw;
 }
-
-.efeito_escurecer{
-    position: absolute;
-    width: 18vw;
-    border-radius: 1vw 1vw 0 0;
-    height: 10vw;
-    background-color: rgba(0, 0, 0, 0.541);
-}
-
-.nome_plano{
-    font: bold 2vw Arial;
-    color: #fff;
-}
-
 
 .img_plano_config{
     display: flex;
@@ -639,6 +620,7 @@ header nav a:hover{
     justify-content: space-between;
     flex-direction: column;
     display: flex;
+    gap:0.3vw;
 }
 
 .list_descri_planos{
@@ -652,11 +634,6 @@ header nav a:hover{
 #configp2 .list_descri_planos{
     height: 5vw;
 }
-
-#configp2{
-    height: 33.5vw;
-}
-
 #configp3 .list_descri_planos{
     height: 4vw;
 }

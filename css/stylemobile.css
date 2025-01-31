@@ -446,21 +446,6 @@
         height: 80VW;
     }
 
-    .efeito_escurecer{
-        width: 36%;
-        border-radius: 3vw 0 0 3vw;
-        height: 80vw;
-    }
-
-    .nome_plano{
-        position: absolute;
-        bottom:0;
-        margin: 0vw 0 3vw 3vw;
-        font: bold 4.5vw Arial;
-        text-align: start;
-        width:80%;
-    }
-
     .img_plano_config{
         width: 40%;
         height: 100%;
@@ -499,6 +484,9 @@
     }
     .textos_planos .paragraph, .textos_planos .paragraph_italic{
         font-size:3.2vw;
+    }
+    .textos_planos .t2{
+        font-size:5vw;
     }
 
     .list_descri_planos{
