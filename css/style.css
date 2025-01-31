@@ -573,23 +573,27 @@ header nav a:hover{
 
 #configp1{
     height: 29VW;
+    cursor: pointer;
 }
 
 #configp2{
     height: 31.5VW;
+    cursor: pointer;
 }
 
 #configp3{
     height: 31.5vw;
+    cursor: pointer;
 }
 
 #configp4{
     height: 29VW;
+    cursor: pointer;
 }
 
 
 #configp2 .textos_planos{
-    height: 13vw;
+    height: 15vw;
 }
 #configp3 .textos_planos{
     height: 13vw;
@@ -604,9 +608,7 @@ header nav a:hover{
 }
 
 .nome_plano{
-    position: absolute;
-    margin: 6.5vw 0 0 2vw;
-    font: bold 1.3vw Arial;
+    font: bold 2vw Arial;
     color: #fff;
 }
 
@@ -650,6 +652,11 @@ header nav a:hover{
 #configp2 .list_descri_planos{
     height: 5vw;
 }
+
+#configp2{
+    height: 33.5vw;
+}
+
 #configp3 .list_descri_planos{
     height: 4vw;
 }
