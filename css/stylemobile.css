@@ -215,19 +215,20 @@
         border-radius:3vw;
     }
     .projetos_card_container{
+        overflow: hidden;
         display:flex;
         flex-direction: column;
         gap:1.5vw;
-        width:85%;
-        height:50vw;
-        margin-top:17vw;
+        width:90%;
+        height:25vw;
+        margin-top:15vw;
         padding-left:2vw;
     }
     .projetos_card_container h3{
         font-size:5vw;
     }
     .projetos_card_container .paragraph{
-        font-size:3.2vw;
+        font-size:3vw;
     }
 
     /*Divulgacao*/

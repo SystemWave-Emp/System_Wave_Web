@@ -215,6 +215,9 @@ header nav a:hover{
     justify-content: center;
     gap:3vw;
 }
+#projetos .swiper-slide a{
+    text-decoration: none;
+}
 #projetos .swiper-button-prev, #projetos .swiper-button-next{
     color:var(--cor-texto);
 }
@@ -227,11 +230,15 @@ header nav a:hover{
     width:20vw;
     height:13vw;
     background-color:#000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius:1vw;
     cursor: pointer;
     overflow: hidden;
 }
 .projetos_card_container{
+    overflow: hidden;
     display:flex;
     flex-direction: column;
     gap:0.5vw;

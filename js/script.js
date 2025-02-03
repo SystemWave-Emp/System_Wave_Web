@@ -23,7 +23,7 @@ function NavigationMobile(){
 
 NavigationMobile();
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.projetos-swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -42,13 +42,13 @@ const swiper = new Swiper('.swiper', {
 
   //swiper Serviços
 
-const servicos = new Swiper(".mySwiper", {
-    direction: "vertical",
+const servicos = new Swiper('.servicos-swiper', {
+    direction: 'vertical',
     slidesPerView: 1,
     spaceBetween: 30,
-    mousewheel: true,
+    // effect: 'flip', //Efeito de animação do slide, os efeitos são: 'slide', 'fade', 'cube', 'coverflow', 'flip', 'creative', 'cards'
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
     },
   });
