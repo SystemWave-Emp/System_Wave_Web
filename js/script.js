@@ -28,15 +28,28 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
   
-    // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
+      el: '.swiper-pagination-horizontal',
+      clickable: true,
     },
   
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+    },
+  });
+
+  //swiper Serviços
+
+const servicos = new Swiper(".mySwiper", {
+    direction: "vertical",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
     },
   });
 

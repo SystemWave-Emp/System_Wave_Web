@@ -144,75 +144,44 @@ header nav a:hover{
 
 
 /*Serviços*/
+
 #servicos{
+    height: 36vw;
     display: flex;
-    height: 43vw;
-    text-align: center;
-    justify-content: center;
 }
 
-.container_servicos_cards{
-    width: 90vw;
-    height: 30vw;
-    margin-top: 13vw;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 4.5vw;
-}
-
-.card{
-    padding: 0 2vw 0 2vw;
-    display: flex;
-    height: 13vw;
-    width: 24vw;
-}
-
-#textos{
+#servicos h3{
     position: absolute;
-    margin-top: 4vw;
-    width: 35vw;
-    height: 7vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin: 7vw 0 0 17vw;
 }
 
-.container_icons{
-    position: absolute;
-    width: 4vw;
-    display: flex;
-}
+  #servicos .swiper {
+    margin-top: 11vw;
+    border-radius: 1.5vw;
+    width: 65vw;
+    height: 20vw;
+  }
 
-.icones_descr{
-    z-index: 2;
-    margin-left: 0.9vw;
-    display: flex;
+  #back-slides-servicos{
+    margin: 19vw 0 0 14.8vw;
     position: absolute;
-    width: 2.65vw;
-}
+    width: 70vw;
+    height: 15vw;
+    background-color: var(--cor-padrao);
+    border-radius: 1.2vw;
+  }
 
-.ondas{
-    margin-top: 1vw;
+  #servicos  .swiper-slide {
+    border-radius: 1.5vw;
+    background: #36363667;
     display: flex;
-    position: absolute;
-    width: 4.5vw;
-    z-index: 1;
-}
+  }
 
-.container_card{
+  #servicos h2{
     position: absolute;
-    margin: 2vw 0 0 1vw;
-    width: 18vw;
-    height: 6.5vw;
-    border-radius: 0.9vw;
-    background-color: var(--cor-fundo2);
-    padding: 1.5vw 2vw 2.5vw 2vw;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    box-shadow: 0vw 0.8vw 1vw var(--cor-fundo3);
-}
+    margin: 2vw;
+  }
+
 
 /*Projetos*/
 #projetos{
