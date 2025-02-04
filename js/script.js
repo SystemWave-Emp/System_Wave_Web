@@ -76,12 +76,3 @@ const servicos = new Swiper('.servicos-swiper', {
   }
   
   ControleCard();
-
-  // BTN toglle
-function btnplanos(){
-  varmensal.classList.toggle("off");
-  varmensal.classList.toggle("on");
-  
-  varanual.classList.toggle("on");
-  varanual.classList.toggle("off");
-}
