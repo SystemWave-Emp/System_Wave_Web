@@ -306,7 +306,8 @@
     #text_funcionalidade{
         width: 75%;
         height: auto;
-        margin: 15vw 0 0 8vw;   
+        margin: 15vw 0 0 8vw;  
+        gap:2vw; 
     }
     #text_funcionalidade .paragraph{
         font-size:3.5vw;

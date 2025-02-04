@@ -469,7 +469,7 @@ header nav a:hover{
     margin: 2.5vw 0 0 14vw;
     display: flex;
     flex-direction: column;
-    gap:2vw;
+    gap:1vw;
 }
 #text_funcionalidade ul li{
     list-style: none;
