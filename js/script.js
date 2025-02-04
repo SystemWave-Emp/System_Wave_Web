@@ -46,7 +46,9 @@ const servicos = new Swiper('.servicos-swiper', {
     direction: 'vertical',
     slidesPerView: 1,
     spaceBetween: 30,
-    // effect: 'flip', //Efeito de animação do slide, os efeitos são: 'slide', 'fade', 'cube', 'coverflow', 'flip', 'creative', 'cards'
+    autoplay: {
+      delay: 3000
+    },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
