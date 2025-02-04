@@ -47,7 +47,7 @@ const servicos = new Swiper('.servicos-swiper', {
     slidesPerView: 1,
     spaceBetween: 30,
     autoplay: {
-      delay: 3000
+      delay: 5000
     },
     pagination: {
       el: '.swiper-pagination',

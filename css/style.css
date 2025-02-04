@@ -224,9 +224,24 @@ header nav a:hover{
   }
 
   .servicos-img{
+    animation: imgServico 5s ease-out infinite;
     position: absolute;
     margin: 0 27vw;
     width: 30vw;
+  }
+
+  @keyframes imgServico{
+    0%{
+        transform:translateY(1vw);
+    }
+
+    50%{
+        transform:translateY(0vw);
+    }
+
+    100%{
+        transform:translateY(1vw);
+    }
   }
 
   #s1{
@@ -454,7 +469,7 @@ header nav a:hover{
     margin: 2.5vw 0 0 14vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap:2vw;
 }
 #text_funcionalidade ul li{
     list-style: none;
@@ -575,29 +590,32 @@ header nav a:hover{
 }
 
 #configp1{
-    height: 31vw;
+    height: 32vw;
 }
 
 #configp2{
-    height: 31.5VW;
+    height: 32VW;
 }
 
 #configp3{
-    height: 31.5vw;
+    height: 32vw;
 }
 
 #configp4{
-    height: 34.1vw;
+    height: 32vw;
 }
 
+#configp1 .textos_planos{
+    height: 14vw;
+}
 #configp2 .textos_planos{
-    height: 13vw;
+    height: 14vw;
 }
 #configp3 .textos_planos{
-    height: 13vw;
+    height: 14vw;
 }
 #configp4 .textos_planos{
-    height: 15.5vw;
+    height: 14vw;
 }
 
 .img_plano_config{
@@ -623,18 +641,16 @@ header nav a:hover{
     height: 12.5vw;
     margin: 1.5vw auto 0 1.5vw;
     text-align: left;
-    justify-content: space-between;
     flex-direction: column;
+    gap:0.5vw;
     display: flex;
-    gap:0.3vw;
 }
 
 .list_descri_planos{
     margin: 0.5vw 0 0 1vw;
-    height: 2vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap:0.5vw;
 }
 
 #configp2 .list_descri_planos{

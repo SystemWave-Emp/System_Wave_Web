@@ -289,7 +289,7 @@
     }
     
     #container_img{
-        height: 80vw;
+        height: 100vw;
         overflow: hidden;
     }
 
@@ -299,14 +299,17 @@
     }
     
     #degrade{
-        height: 80vw;
+        height: 100vw;
         background-image: linear-gradient(to top, var(--cor-fundo), #1e1e1ef5 50%, #1e1e1e00);
     }
     
     #text_funcionalidade{
         width: 75%;
-        height: 50vw;
+        height: auto;
         margin: 15vw 0 0 8vw;   
+    }
+    #text_funcionalidade .paragraph{
+        font-size:3.5vw;
     }
     #text_funcionalidade ul li{
         list-style: none;
@@ -380,7 +383,7 @@
 
     #intro_planos{
         position: relative;
-        height: 35vw; 
+        height: 15vw; 
         margin: 10vw auto;
     }
 
@@ -389,31 +392,8 @@
         height:100%;;
     }
 
-    .on{
-        font: bold 4vw Arial;
-    }
-
-    .off{
-        font: normal 4vw Arial;
-    }
-
-    /* Botão toggle */
-    
-    .toggleSwitch {
-        width: 9vw;
-        height: 4vw;
-        border-radius: 5vw;
-    }
-    
-    .toggleSwitch::after {
-        margin-right: 3.5vw;
-        height: 3vw;
-        width: 3vw;
-        border-radius: 4vw;
-    }
-
     #sep_planos{
-        margin-top: 55vw;
+        margin-top: 35vw;
         position: absolute;
         height: auto;
         width: 100%;
@@ -432,19 +412,19 @@
     }
 
     #configp1{
-        height: 80VW;
+        height: 85VW;
     }
 
     #configp2{
-        height: 80VW;
+        height: 85VW;
     }
 
     #configp3{
-        height: 80vw;
+        height: 85vw;
     }
 
     #configp4{
-        height: 80VW;
+        height: 85VW;
     }
 
     .img_plano_config{
@@ -505,7 +485,7 @@
     .sep_btn_comecar{
         position: absolute;
         margin-left:47vw;
-        margin-top:61vw;
+        margin-top:66.5vw;
     }
     .btns_planos{
         position: absolute;
@@ -533,13 +513,13 @@
     }
 
     .perguntas_card .card_fechado{
-        height:8vw;
+        height:9vw;
     }
     .perguntas_card .card_fechado::before{
         width:1vw; 
     }
     .perguntas_card .card_fechado span{
-        font-size:3.2vw;
+        font-size:3vw;
         padding-left:3vw;
         width:88%;
     }
