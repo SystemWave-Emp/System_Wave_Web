@@ -151,7 +151,6 @@ header nav a:hover{
 }
 
 #servicos h3{
-    z-index: 1;
     position: absolute;
     margin: 5vw 0 0 23.5vw;
     width: 12vw;
@@ -253,11 +252,8 @@ header nav a:hover{
     margin: 0 31vw;
     width: 25vw;
   }
+  
 
-  #s4{
-    margin: 0 28vw;
-    width: 29vw;
-  }
 
   #s5{
     margin: 0 29vw;
@@ -275,9 +271,7 @@ header nav a:hover{
     margin: 3.5vw 16vw;
   }
 
-  #Desenvolvimento-Sistemas{
-    width: 20vw;
-  }
+
 
 
 /*Projetos*/

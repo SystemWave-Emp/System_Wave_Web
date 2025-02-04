@@ -107,77 +107,101 @@
     }
 
     /*Serviços*/
+   
     #servicos{
-        margin-top:8vw;
-        height: 240vw;
+        height: 70vw;
     }
 
-    #textos{
+    #servicos h3{
         position: absolute;
-        margin-top: 4vw;
-        width: 80vw;
-        height: 35vw;
+        margin: 10vw 0 0 11vw;
+        width: 40vw;
+        font-size: 5vw;
     }
 
-    .container_servicos_cards{
-        width: 100%;
-        height: 40vw;
-        margin-top: 50vw;
-        display: flex;
-        column-gap: 10vw;
-        row-gap:8vw;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-left: 0vw;
+    .sep-servicos{
+        margin: 3vw 2.5vw 0 0;
+        width:50vw;
+        height: 39vw;
     }
 
-    .card{
-        padding:0vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 55vw;
-        width: 38vw;
-    }
+    #servicos .swiper {
+        margin-top:22vw;
+        width: 78vw;
+        height: 41.5vw;
+      }
 
-    .container_icons{
-        position: relative;
-        width: 50%;
-    }
-
-    .icones_descr{
-        margin-left: 5vw;
-        display: flex;
-        position: absolute;
-        width: 10vw;
-    }
-
-    .ondas{
-        margin-top: 2.5vw;
-        display: flex;
-        position: absolute;
-        width: 20vw;
-    }
-
-    .container_card{
-        position: relative;
-        margin: 7vw 0vw 0vw 0vw;
-        width: 100%;
-        height: 100%;
+      #back-slides-servicos{
+        margin: 32vw 0 0 8vw;
+        width: 84vw;
+        height: 34vw;
         border-radius: 2vw;
-        padding: 10vw 3vw 3vw 3vw;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .container_card .paragraph{
-        font-size:3.2vw;
-    }
+      }
 
+      #servicos h2{
+        font-size: 4.4vw;
+        width: 30vw;
+      }
+
+      #p1-servicos{
+        width: 34vw;
+        font-size: 2.6vw;
+      }
+      #p2-servicos{
+        display: none;
+      }
+
+      #s1{
+        margin: 0vw 0 0 30vw;
+        width: 50vw;
+      }
+      
+      #s2{
+        margin: 0 32vw;
+        width: 45vw;
+      }
+
+      
+      #s3{
+        margin: 5vw 32vw;
+        width: 45vw;
+      }
+    
+      #s4{
+        margin: 5vw 33vw;
+        width: 45vw;
+      }
+    
+      #s5{
+        margin: 5vw 34vw;
+        width: 43vw;
+      }
+    
+      #s6{
+        margin: 2vw 33vw;
+        width: 45vw;
+      }
+
+      .btn-servico-comecar{
+        height: 5vw;
+        width: 25vw;
+        border-radius: 1.5vw;
+        text-align: center;
+        padding-top: 2vw;
+        font: bold 2.2vw Arial;
+        color: var(--cor-texto);
+        cursor: pointer;
+        transition: 1s;
+      }
+
+      #btn-servicos{
+        position: absolute;
+        margin: 14vw 1.5vw;
+      }
+    
     /*Projetos*/
     #projetos{
+        margin-top: 5vw;
         background-size:200%;
         background-position-x: center;
         background-position-y:80vw;
@@ -193,6 +217,14 @@
         width:80vw;
     }
 
+    #projetos h2{
+        font-size: 5vw;
+    }
+
+    #projetos p{
+        font-size: 3vw;
+    }
+
     #projetos .swiper {
         width: 98vw;
         height: 150vw;
@@ -205,12 +237,12 @@
         gap:5vw;
     }
     #projetos .swiper-button-prev::after, #projetos .swiper-button-next::after{
-        font-size:8vw;
+        font-size:7vw;
         font-weight:900;
     }
 
     .projetos_card{
-        width:60vw;
+        width:65vw;
         height:40vw;
         border-radius:3vw;
     }
@@ -234,30 +266,31 @@
     /*Divulgacao*/
     .divulgacao_container{
         margin-top:8vw;
-        width:100%;
+        width:80%;
         gap:10vw;
-        border-radius:1vw;
+        border-radius:3vw;
         padding:10vw 0vw;
+        overflow: hidden;
     }
     .divulgacao_conteudo{
         gap:6vw;
     }
     .divulgacao_container .divulgacao_conteudo p{
-        width:80vw;
+        width:60vw;
+        font-size: 3.3vw;
     }
     .divulgacao_container .divulgacao_conteudo button{
         width:100%;
         padding:2vw 0vw;
-        border-radius:1vw;
-        font-size:4vw;
+        border-radius:1.5vw;
+        font-size:3.5vw;
     }
     .divulgacao_container .divulgacao_conteudo a{
         width:50vw;
     }
 
     .divulgacao_container .elemento_Fundo1{
-        margin-top:-10vw;
-        margin-right:0vw;
+        margin: -10vw 0 0 10vw;
         width:40vw;
         height:50vw;
         border-radius:0vw;
@@ -272,7 +305,7 @@
     .divulgacao_container .elemento_Fundo2{
         width:45vw;
         height:61vw;
-        margin-left:0vw;
+        margin: 0 10vw;
         border-radius:0vw;
         right:0;
     }
@@ -285,7 +318,6 @@
     #funcionalidade{
         margin-top:8vw;
         height: auto;
-        padding-bottom:20vw;
     }
     
     #container_img{
@@ -300,20 +332,23 @@
     
     #degrade{
         height: 100vw;
-        background-image: linear-gradient(to top, var(--cor-fundo), #1e1e1ef5 50%, #1e1e1e00);
+        background-image: linear-gradient(to top, var(--cor-fundo), #1e1e1ef5 50%, #1e1e1eaf);
     }
     
     #text_funcionalidade{
         width: 75%;
         height: auto;
-        margin: 15vw 0 0 8vw;  
+        margin: 12vw 0 0 8vw;  
         gap:2vw; 
     }
     #text_funcionalidade .paragraph{
-        font-size:3.5vw;
+        font: normal 3vw Arial
     }
     #text_funcionalidade ul li{
         list-style: none;
+        font: italic 2.8vw Arial;
+        width: 60vw;
+
     }
     #text_funcionalidade li:before {
         width:1.5vw;
@@ -329,7 +364,7 @@
     }
     
     #ranking{
-        padding-top: 45vw;
+        padding-top: 18vw;
         margin: 0 auto;
         width:90vw;
         height: auto;
@@ -337,7 +372,8 @@
     }
     
     .dados{
-        padding-top:45vw;
+        margin: 8vw 0 14vw 0;
+        padding-top:20vw;
         width: 40vw;
         height: auto;
         gap:1.5vw;
@@ -352,7 +388,7 @@
     
     .title_dados2{
         margin-top: 0vw;
-        font: bold 10vw Arial;
+        font: bold 8vw Arial;
     }
     
     .title_dados1{
@@ -364,18 +400,18 @@
     }
     
     .paragraph_dado1{
-        font: normal 4vw Arial;
+        font: normal 3.5vw Arial;
     }
     
     .paragraph_dado2{
         margin-left: 0vw;
         width: auto;
-        font: normal 3.4vw Arial;
+        font: normal 2.8vw Arial;
     }
 
     /*Planos*/
     #planos{
-        height: 410vw;
+        height: 315vw;
     }
 
     #back_blur{
@@ -407,44 +443,41 @@
 
     .config_planos{
         border-radius: 3vw;
-        width: 90%;
+        width: 82%;
         display:flex;
         justify-content: space-between;
     }
 
     #configp1{
-        height: 85VW;
+        height: 50VW;
     }
 
     #configp2{
-        height: 85VW;
+        height: 62VW;
     }
 
     #configp3{
-        height: 85vw;
+        height: 64vw;
     }
 
     #configp4{
-        height: 85VW;
+        height: 63VW;
     }
 
     .img_plano_config{
-        width: 40%;
+        width: 40vw;
         height: 100%;
     }
     .img_plano{
         height: 100%;
         width:auto;
-        margin-left:-60vw;
-    }
-    #configp1 .img_plano{
-        margin-left:-90vw;
     }
 
     .efeito_degrade_img{
-        margin: 0vw 0 0 35vw;
+        margin: 0vw 0 0 34.3vw;
         width: 1.5vw;
         height: 30vw;
+        background-image: linear-gradient(to top, var(--cor-degrade2), var(--cor-degrade1));
     }
     #configp2 .textos_planos{
         height: auto;
@@ -456,7 +489,7 @@
     .textos_planos{
         width: 46vw;
         height: auto;
-        margin: 0vw;
+        margin: 0 0 0 4VW;
         padding:4vw 3vw 0vw 0vw;
         text-align: left;
         justify-content: start;
@@ -465,10 +498,10 @@
         display: flex;
     }
     .textos_planos .paragraph, .textos_planos .paragraph_italic{
-        font-size:3.2vw;
+        font-size:2.8vw;
     }
     .textos_planos .t2{
-        font-size:5vw;
+        font-size:4vw;
     }
 
     .list_descri_planos{
@@ -489,14 +522,11 @@
         margin-top:66.5vw;
     }
     .btns_planos{
-        position: absolute;
-        margin: 9vw 0 0 5vw;
-        font: bold 4.5vw Arial;
+        display: none;
     }
 
     .img_btn_planos{
-        width: 40vw;
-        margin-left: 2.7vw;
+        display: none;
     }
 
     /*Perguntas*/
@@ -506,7 +536,7 @@
     }
 
     #perguntas .title{
-        padding-bottom:4vw;
+        padding-bottom:6vw;
     }
 
     .perguntas_card{
@@ -632,5 +662,6 @@
         height:250vw;
         width:90vw;
         top:1200vw;
+        display: none;
     }
 }
