@@ -73,8 +73,18 @@ body{
     color:var(--cor-texto);
 }
 
+.titleW{
+    font: bold 2.4vw Arial;
+    color: var(--cor-texto-padrao);
+}
+
 .title_x1{
     font: bold 1.5vw Arial;
+    color: var(--cor-padrao);
+}
+
+.title_x05{
+    font: bold 1.8vw Arial;
     color: var(--cor-padrao);
 }
 

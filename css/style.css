@@ -146,40 +146,122 @@ header nav a:hover{
 /*Serviços*/
 
 #servicos{
-    height: 36vw;
+    height: 31vw;
     display: flex;
 }
 
 #servicos h3{
+    z-index: 1;
     position: absolute;
-    margin: 7vw 0 0 17vw;
+    margin: 5vw 0 0 23.5vw;
+    width: 12vw;
+}
+
+.sep-servicos{
+    margin: 2.8vw 2.5vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width:30vw;
+    height: 14.5vw;
 }
 
   #servicos .swiper {
-    margin-top: 11vw;
+    margin-top:8vw;
     border-radius: 1.5vw;
-    width: 65vw;
-    height: 20vw;
+    width: 58vw;
+    height: 21vw;
   }
 
   #back-slides-servicos{
-    margin: 19vw 0 0 14.8vw;
+    margin: 12.3vw 0 0 20vw;
     position: absolute;
-    width: 70vw;
-    height: 15vw;
+    width: 60vw;
+    height: 16vw;
     background-color: var(--cor-padrao);
     border-radius: 1.2vw;
   }
 
   #servicos  .swiper-slide {
     border-radius: 1.5vw;
-    background: #36363667;
+    background: #22222200;
     display: flex;
   }
 
-  #servicos h2{
+  #p1-servicos{
+    width: 26vw;
+  }
+  #p2-servicos{
+    margin-top: 1vw;
+    width: 26vw;
+  }
+
+  #desenvolvitento-sitemas{
+    width: 20vw;
+    margin-bottom:0.5vw ;
+  }
+
+  .btn-servico-comecar{
+    margin-top: 1vw;
+    background-color: var(--cor-fundo);
+    height: 1.8vw;
+    width: 10vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    padding-top: 0.7vw;
+    font: bold 0.8vw Arial;
+    color: var(--cor-texto);
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .btn-servico-comecar:hover{
+    width: 10.2vw;
+    height: 2vw;
+    padding-top: 0.9vw;
+    transition: 0.5s;
+    background-color: var(--cor-fundo2);
+  }
+
+  .servicos-img{
     position: absolute;
-    margin: 2vw;
+    margin: 0 27vw;
+    width: 30vw;
+  }
+
+  #s1{
+    margin: 0 25vw;
+    width: 30vw;
+  }
+  
+  #s2{
+    margin: 0 31vw;
+    width: 25vw;
+  }
+
+  #s4{
+    margin: 0 28vw;
+    width: 29vw;
+  }
+
+  #s5{
+    margin: 0 29vw;
+    width: 28vw;
+  }
+
+  #s6{
+    margin: 0 30vw;
+    width: 26vw;
+  }
+
+
+  #btn-servicos{
+    position: absolute;
+    margin: 3.5vw 16vw;
+  }
+
+  #Desenvolvimento-Sistemas{
+    width: 20vw;
   }
 
 
@@ -368,8 +450,8 @@ header nav a:hover{
     z-index: 12;
     position: absolute;
     width: 25vw;
-    height: 12.5vw;
-    margin: 6.5vw 0 0 14vw;
+    height: 20vw;
+    margin: 2.5vw 0 0 14vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -392,7 +474,7 @@ header nav a:hover{
 
 #list_funcionalidades{
     margin-left: 1.5vw;
-    height: 5vw;
+    height: 9vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -465,8 +547,8 @@ header nav a:hover{
 
 #intro_planos{
     position: absolute;
-    height: 7.5vw; 
-    margin: 3vw auto;
+    height: 4vw; 
+    margin: 4vw auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -475,61 +557,6 @@ header nav a:hover{
 #colors_blur{
     width: 100%;
 }
-
-.on{
-    font: bold 1.2vw Arial;
-    color: var(--cor-texto);
-}
-
-.off{
-    font: normal 1.2vw Arial;
-    color: #5e5e5e;
-}
-
-/* Botão toggle */
-
-#checkboxInput {
-    display: none;
-  }
-  
-  .toggleSwitch {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 2.3vw;
-    height: 1.2vw;
-    background-color: rgb(82, 82, 82);
-    border-radius: 1vw;
-    cursor: pointer;
-    transition-duration: .2s;
-  }
-  
-  .toggleSwitch::after {
-    content: "";
-    margin-right: 0.8vw;
-    position: absolute;
-    height: 0.47vw;
-    width: 0.50vw;
-
-    background-color: transparent;
-    border-radius: 2vw;
-    transition-duration: .2s;
-    box-shadow: 5px 2px 7px rgba(8, 8, 8, 0.26);
-    border: 0.2vw solid white;
-  }
-  
-  #checkboxInput:checked+.toggleSwitch::after {
-    transform: translateX(100%);
-    transition-duration: .2s;
-    background-color: white;
-  }
-  /* Switch background change */
-  #checkboxInput:checked+.toggleSwitch {
-    background-color: var(--cor-padrao);
-    transition-duration: .2s;
-  }
 
   #sep_planos{
     margin-top: 12.6vw;
@@ -548,7 +575,7 @@ header nav a:hover{
 }
 
 #configp1{
-    height: 29VW;
+    height: 31vw;
 }
 
 #configp2{
@@ -560,7 +587,7 @@ header nav a:hover{
 }
 
 #configp4{
-    height: 29VW;
+    height: 34.1vw;
 }
 
 #configp2 .textos_planos{
@@ -568,6 +595,9 @@ header nav a:hover{
 }
 #configp3 .textos_planos{
     height: 13vw;
+}
+#configp4 .textos_planos{
+    height: 15.5vw;
 }
 
 .img_plano_config{
@@ -590,7 +620,7 @@ header nav a:hover{
 
 .textos_planos{
     width: 14vw;
-    height: 10.5vw;
+    height: 12.5vw;
     margin: 1.5vw auto 0 1.5vw;
     text-align: left;
     justify-content: space-between;
@@ -612,6 +642,9 @@ header nav a:hover{
 }
 #configp3 .list_descri_planos{
     height: 4vw;
+}
+#configp4 .list_descri_planos{
+    height: 10vw;
 }
 
 
