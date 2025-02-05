@@ -37,6 +37,9 @@
 body{
     background-color: var(--cor-fundo);
 }
+a{
+    text-decoration: none;
+}
 
 .title{
     font: bold 2vw Arial;
@@ -54,7 +57,12 @@ body{
 }
 
 .paragraph{
-    font: normal 0.8vw Arial;
+    font: normal 0.85vw Arial;
+    color:var(--cor-texto);
+}
+
+.paragraph-x1{
+    font: normal 1vw Arial;
     color:var(--cor-texto);
 }
 

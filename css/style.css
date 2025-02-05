@@ -191,8 +191,8 @@ header nav a:hover{
     width: 26vw;
   }
   #p2-servicos{
-    margin-top: 1vw;
-    width: 26vw;
+    margin-top: 0.5vw;
+    width: 20vw;
   }
 
   #desenvolvitento-sitemas{
@@ -201,6 +201,7 @@ header nav a:hover{
   }
 
   .btn-servico-comecar{
+    text-decoration: none;
     margin-top: 1vw;
     background-color: var(--cor-fundo);
     height: 1.8vw;
@@ -229,6 +230,7 @@ header nav a:hover{
     width: 30vw;
   }
 
+
   @keyframes imgServico{
     0%{
         transform:translateY(1vw);
@@ -244,7 +246,7 @@ header nav a:hover{
   }
 
   #s1{
-    margin: 0 25vw;
+    margin: 0 29vw;
     width: 30vw;
   }
   
@@ -271,7 +273,9 @@ header nav a:hover{
     margin: 3.5vw 16vw;
   }
 
-
+  #desenvolvimento-sistemas{
+    width: 20vw;
+  }
 
 
 /*Projetos*/
@@ -412,12 +416,7 @@ header nav a:hover{
 }
 
 .divulgacao_container .elemento_Fundo2{
-    overflow: hidden;
-    position: absolute;
-    width:25vw;
-    height:15.1vw;
-    margin-left:25vw;
-    border-radius:1vw;
+    display: none;
 }
 .divulgacao_container .elemento_Fundo2 img{
     position: relative;
@@ -587,16 +586,36 @@ header nav a:hover{
     height: 32vw;
 }
 
+#i1img{
+    display: none;
+}
+
 #configp2{
     height: 32VW;
+}
+
+#i2img2{
+    display: none;
 }
 
 #configp3{
     height: 32vw;
 }
 
+#i3img2{
+    display: none;
+}
+
 #configp4{
     height: 32vw;
+}
+
+#i4img{
+    display: flex;
+}
+
+#i4img2{
+    display: none;
 }
 
 #configp1 .textos_planos{
@@ -659,6 +678,8 @@ header nav a:hover{
 
 
 .btns_planos{
+    text-decoration: none;
+    cursor: pointer;
     position: absolute;
     margin: 3vw 0 0 4.8vw;
     background: none;
