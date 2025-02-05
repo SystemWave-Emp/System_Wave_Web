@@ -416,7 +416,12 @@ header nav a:hover{
 }
 
 .divulgacao_container .elemento_Fundo2{
-    display: none;
+    overflow: hidden;
+    position: absolute;
+    width:25vw;
+    height:15.1vw;
+    margin-left:25vw;
+    border-radius:1vw;
 }
 .divulgacao_container .elemento_Fundo2 img{
     position: relative;

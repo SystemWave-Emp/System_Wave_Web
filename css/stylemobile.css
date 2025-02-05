@@ -309,11 +309,7 @@
     }
 
     .divulgacao_container .elemento_Fundo2{
-        width:45vw;
-        height:61vw;
-        margin: 0 10vw;
-        border-radius:0vw;
-        right:0;
+        display: none;
     }
     .divulgacao_container .elemento_Fundo2 img{
         bottom:-1vw;
