@@ -204,11 +204,13 @@ header nav a:hover{
     text-decoration: none;
     margin-top: 1vw;
     background-color: var(--cor-fundo);
-    height: 1.8vw;
     width: 10vw;
     border-radius: 0.5vw;
+    display:flex;
+    align-items:center;
+    justify-content: center;
     text-align: center;
-    padding-top: 0.7vw;
+    padding:0.8vw 0 0.8vw 0;
     font: bold 0.8vw Arial;
     color: var(--cor-texto);
     cursor: pointer;
@@ -216,9 +218,8 @@ header nav a:hover{
   }
 
   .btn-servico-comecar:hover{
-    width: 10.2vw;
-    height: 2vw;
-    padding-top: 0.9vw;
+    scale:1.05;
+    margin-left: 0.5vw;
     transition: 0.5s;
     background-color: var(--cor-fundo2);
   }

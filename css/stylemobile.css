@@ -33,8 +33,9 @@
         font-size:4vw;
         color:var(--cor-texto-padrao);
         font-weight: 700;
-        text-decoration: none;
         width:90%;
+        display:flex;
+        flex-direction: column;
     }
     #navMobile a:hover{
         scale:1.05;
@@ -188,16 +189,10 @@
       }
 
       .btn-servico-comecar{
-        text-decoration: none;
-        height: 5vw;
         width: 25vw;
         border-radius: 1.5vw;
-        text-align: center;
-        padding-top: 2vw;
+        padding: 2vw 0vw 2vw 0vw;
         font: bold 2.2vw Arial;
-        color: var(--cor-texto);
-        cursor: pointer;
-        transition: 1s;
       }
 
       #btn-servicos{
@@ -366,7 +361,7 @@
     }
     
     #ranking{
-        padding-top: 18vw;
+        padding-top: 25vw;
         margin: 0 auto;
         width:90vw;
         height: auto;

@@ -78,3 +78,13 @@ const servicos = new Swiper('.servicos-swiper', {
   }
   
   ControleCard();
+
+document.querySelector('.footer_forms').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  // Verifica se o formulário é válido
+  if (this.checkValidity()) {
+      alert('Seu contato foi recebido pela empresa, aguarde o retorno!');
+      this.submit();
+  }
+});
